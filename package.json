@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-commits-patterning-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gdfreitas/nodejs-commits-patterning-sample.git",
+  "author": "Gabriel Freitas <gdfreitasdev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.2"
+  }
+}
