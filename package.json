@@ -6,7 +6,7 @@
   "author": "Gabriel Freitas <gdfreitasdev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "commit": "cz"
+    "test": "echo 'running my test suite!'"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
