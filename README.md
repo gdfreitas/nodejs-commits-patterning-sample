@@ -22,3 +22,4 @@ git commit
 - https://github.com/typicode/husky
 - https://github.com/conventional-changelog/commitlint
 - https://github.com/commitizen/cz-cli
+- https://github.com/okonet/lint-staged
