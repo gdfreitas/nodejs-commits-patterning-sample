@@ -12,10 +12,10 @@ git commit
 
 ## Hooks
 
-- `pre-commit` Runs static code linting on git commits
-- `pre-push` Runs app/library test suite on git push
-- `commit-msg` Runs commitlint to lint commit message
-- `prepare-commit-msg` Runs commitzen to compose commit
+- `prepare-commit-msg` Runs commitzen to compose commit messages
+- `pre-commit` Runs static code linting on staged files before git commit
+- `commit-msg` Runs commitlint to lint commit message according to conventional commits
+- `pre-push` Runs project's test suite before git push
 
 ## References
 

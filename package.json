@@ -6,7 +6,8 @@
   "author": "Gabriel Freitas <gdfreitasdev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "node src/index.js",
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix **/*.js",
     "test": "node src/index.test.js"
   },
   "devDependencies": {
@@ -14,7 +15,9 @@
     "@commitlint/config-conventional": "^13.1.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "^7.0.2"
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2"
   },
   "config": {
     "commitizen": {

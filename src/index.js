@@ -1,1 +1,1 @@
-console.log("Source code linting!");
+console.log('Source code!');
