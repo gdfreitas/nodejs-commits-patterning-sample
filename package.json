@@ -6,7 +6,8 @@
   "author": "Gabriel Freitas <gdfreitasdev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo 'running my test suite!'"
+    "lint": "node src/index.js",
+    "test": "node src/index.test.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",

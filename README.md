@@ -10,6 +10,13 @@ It will prompt commitzen for you to compose your commit
 git commit
 ```
 
+## Hooks
+
+- `pre-commit` Runs static code linting on git commits
+- `pre-push` Runs app/library test suite on git push
+- `commit-msg` Runs commitlint to lint commit message
+- `prepare-commit-msg` Runs commitzen to compose commit
+
 ## References
 
 - https://github.com/typicode/husky
